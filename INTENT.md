@@ -173,3 +173,14 @@ This project structure:
 * Makes it easy to plug in new components or extend pipelines.
 
 If this was your design—solid architecture. If you inherited it—respect to whoever set this up.
+
+---
+
+## 🔒 Configuration File Best Practices
+
+- **Push config files** (like `src/config/settings.py`) to git only if they contain default, non-sensitive settings (e.g., file paths, constants, safe defaults).
+- **Do NOT push config files** with secrets, passwords, API keys, or environment-specific values. Instead:
+  - Add them to `.gitignore`.
+  - Create and push a template (e.g., `settings.example.py`) with placeholder values.
+  - Use environment variables or a `.env` file (which should also be gitignored) for sensitive data.
+- This keeps your project secure and easy to set up for new users or deployments.

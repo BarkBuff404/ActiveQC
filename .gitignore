@@ -1,3 +1,5 @@
+# Ignore actual config and env files with secrets
+src/config/settings.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
