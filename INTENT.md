@@ -1,4 +1,4 @@
-Your project, `ActiveQC`, follows a clean **modular architecture**, well-suited for a data pipeline or ML workflow. Let's break it down textually and walk through the **code structure** and the **probable data/code flow** based on the file names and structure.
+Project, `ActiveQC`, follows a clean **modular architecture**, well-suited for a data pipeline or ML workflow. Let's break it down textually and walk through the **code structure** and the **probable data/code flow** based on the file names and structure.
 
 ---
 
