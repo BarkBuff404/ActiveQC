@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+pymssql
+plotly
+streamlit
+PIconnect
+python-dotenv
+-e .
