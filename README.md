@@ -1,4 +1,4 @@
-# ActiveQC ⚙️
+# ActiveQC
 
 **ActiveQC** isn’t just code — it’s a blueprint for how **real Python should be built** when shortcuts aren't an option and duct tape won’t cut it.
 
